@@ -20,7 +20,6 @@ func firebaseSubscribe() {
   resp, err := client.Do(req)
 
   if err != nil {
-    //fmt.Println("Got an error!!!!")
     fmt.Printf("Error: %s", err)
   }
 
